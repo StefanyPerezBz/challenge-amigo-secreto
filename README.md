@@ -6,11 +6,13 @@ El proyecto fue realizado como práctica para mejorar la lógica de programació
 
 - Lógica de programación con JavaScript
 
-![Vista previa del proyecto](./funcionamiento.mp4)
+![Vista previa del proyecto](./preview.png)
 
 ## Funcionamiento
 
-![Video del proyecto](./preview.png)
+![Video del proyecto](./funcionamiento.mp4)
+
+Haz clic en la imagen para ver el video del proyecto.
 
 ## ✨ Características Principales
 
