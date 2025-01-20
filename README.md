@@ -8,10 +8,6 @@ El proyecto fue realizado como práctica para mejorar la lógica de programació
 
 ![Vista previa del proyecto](./preview.png)
 
-## Funcionamiento
-
-![Video del proyecto](./funcionamiento.mp4)
-
 Haz clic en la imagen para ver el video del proyecto.
 
 ## ✨ Características Principales
