@@ -105,3 +105,14 @@ function validarNombre(nombre) {
   return true;
 }
 ```
+
+## Insignia de logro
+
+Insignia lograda por completar el challenge "Amigo Secreto"
+
+![Vista de insignia](./assets/insignia.webp)
+
+## 👤 Autor
+
+Desarrollado por **Stefany Pérez**  
+GitHub: [@StefanyPerezBz](https://github.com/StefanyPerezBz)

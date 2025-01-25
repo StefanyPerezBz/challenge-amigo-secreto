@@ -61,7 +61,7 @@ function realizarSorteo() {
     );
 
     if (posiblesSorteados.length === 0) {
-      return false;
+      return false; // Si no hay opciones válidas, reinicia el sorteo
     }
 
     const indiceAleatorio = Math.floor(
@@ -78,7 +78,7 @@ function realizarSorteo() {
 
 async function sortearAmigo() {
   const resultado = document.getElementById("resultado");
-  const listaAmigos = document.getElementById("listaAmigos");
+  const contenedorLista = document.getElementById("contenedorLista");
   resultado.innerHTML = "";
 
   if (amigos.length < 2) {
@@ -86,8 +86,10 @@ async function sortearAmigo() {
     return;
   }
 
-  listaAmigos.classList.add("hide");
+  // Ocultar nombres de la lista
+  contenedorLista.classList.add("hidden");
 
+  // Mostrar spinner y mensaje
   const mensajeSorteo = document.createElement("div");
   mensajeSorteo.textContent = "Sorteando tu amigo secreto...";
   mensajeSorteo.className = "mensaje-sorteo fade-in";
@@ -102,16 +104,17 @@ async function sortearAmigo() {
     sorteoExitoso = realizarSorteo();
   }
 
-  // Esperar 3 segundos para crear más suspense
+  // Esperar 3 segundos para suspense
   await new Promise((resolve) => setTimeout(resolve, 3000));
 
+  // Mostrar resultado con el amigo secreto
   resultado.innerHTML = "";
-
   const divResultado = document.createElement("div");
   divResultado.className = "resultado-final fade-in";
+  const amigoSecreto = Array.from(sorteados.values())[0];
   divResultado.innerHTML = `
-        <p class="titulo-resultado">El amigo secreto es:</p>
-        <p class="nombre-sorteado">${Array.from(sorteados.values())[0]}</p>
+        <p class="titulo-resultado">Tu amigo secreto es:</p>
+        <p class="nombre-sorteado">${amigoSecreto}</p>
     `;
   resultado.appendChild(divResultado);
 }

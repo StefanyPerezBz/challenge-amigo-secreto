@@ -1,14 +1,14 @@
-:root {
-  --color-primary: #4b69fd;
-  --color-secondary: #fff9eb;
-  --color-tertiary: #c4c4c4;
-  --color-button: #fe652b;
-  --color-button-hover: #e55720;
-  --color-text: #444444;
-  --color-white: #ffffff;
+:root { 
+  --color-bg: #F7F4F9; /* Lavanda suave */
+  --color-primary: #A0AEC0; /* Azul grisáceo */
+  --color-secondary: #FF8DA1; /* Rosa vibrante */
+  --color-text: #2D3748; /* Gris oscuro */
+  --color-subtext: #718096; /* Gris claro */
+  --color-accent: #FDE68A; /* Amarillo pastel */
+  --color-white: #FFFFFF;
+  --shadow-light: rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos generales */
 * {
   margin: 0;
   padding: 0;
@@ -16,160 +16,176 @@
 }
 
 body {
-  height: 100vh;
-  background-color: var(--color-primary);
+  font-family: 'Inter', sans-serif;
+  background-image: url(/assets/fondo.webp);
+  background-repeat: no-repeat;
+  color: var(--color-text);
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  padding: 20px;
 }
 
 .main-content {
+  width: 100%;
+  max-width: 600px;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 15px var(--shadow-light);
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
+  text-align: center;
 }
 
-/* Banner */
+.hide {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #ff6b81; 
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
 .header-banner {
-  flex: 40%;
-  display: flex;
+  background-color: var(--color-secondary);
+  padding: 30px 20px;
+  color: var(--color-white);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.header-banner img {
+  width: 150px; 
   justify-content: center;
-  align-items: center;
-  padding: 40px 0 0;
+  max-width: 100%; 
+  height: auto;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-weight: 400;
 }
 
 /* Sección de entrada */
 .input-section {
-  flex: 60%;
-  background-color: var(--color-secondary);
-  border: 1px solid #000;
-  border-radius: 64px 64px 0 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
-}
-
-/* Títulos */
-.main-title {
-  font-size: 48px;
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: italic;
-  color: var(--color-white);
+  padding: 30px 20px;
 }
 
 .section-title {
-  font-family: "Inter", serif;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 1.8rem;
   color: var(--color-primary);
-  margin: 10px 0;
-  text-align: center;
+  margin-bottom: 10px;
 }
 
-/* Contenedores de entrada y botón */
+.description {
+  font-size: 1rem;
+  color: var(--color-subtext);
+  margin-bottom: 20px;
+}
+
 .input-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: center;
-  width: 100%;
-  max-width: 600px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .input-name {
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #000;
-  border-radius: 25px 0 0 25px;
-  font-size: 16px;
-}
-
-.button-container {
-  width: 300px;
-  justify-content: center;
-}
-
-/* Estilos de entrada de texto */
-.input-title {
   flex: 1;
   padding: 10px 15px;
-  font-size: 16px;
-  border: 2px solid #333;
-  border-right: none;
-  border-radius: 25px 0 0 25px;
-  font-family: "Merriweather", serif;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--color-primary);
+  border-radius: 25px;
+  transition: border-color 0.3s;
+  min-width: 200px;
 }
 
-/* Estilos de botón */
-button {
-  padding: 15px 30px;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  border: 2px solid #000;
-  border-radius: 25px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+.input-name:focus {
+  outline: none;
+  border-color: var(--color-secondary);
 }
 
 .button-add {
-  background-color: var(--color-tertiary);
-  color: var(--color-text);
-  border-radius: 0 25px 25px 0;
+  padding: 10px 20px;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 25px;
+  color: var(--color-white);
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
 }
 
 .button-add:hover {
-  background-color: #a1a1a1;
+  background-color: var(--color-secondary);
+  transform: scale(1.05);
 }
 
-/* Listas */
-ul {
-  list-style-type: none;
-  color: var(--color-text);
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
+.name-list {
+  list-style: none;
   margin: 20px 0;
-}
-
-.result-list {
-  margin-top: 15px;
-  color: #05df05;
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* Botón de sortear título */
-.button-draw {
+  padding: 0;
+  text-align: left;
+  color: var(--color-text);
   display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 10px 40px;
-  color: var(--color-white);
-  background-color: var(--color-button);
-  font-size: 16px;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.button-draw img {
-  margin-right: 40px;
+.name-list li {
+  background-color: var(--color-bg);
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px var(--shadow-light);
+  font-weight: 500;
+}
+
+.result-container {
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  margin-top: 20px;
+  animation: fade-in 0.5s;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-draw {
+  padding: 12px 30px;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .button-draw:hover {
-  background-color: var(--color-button-hover);
-}
-
-/* Estilos para el spinner y la animación */
-.spinner {
-  width: 50px;
-  height: 50px;
-  border: 5px solid var(--color-tertiary);
-  border-top: 5px solid var(--color-button);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin: 20px auto;
+  background-color: var(--color-accent);
+  transform: translateY(-3px);
 }
 
 @keyframes spin {
@@ -181,19 +197,39 @@ ul {
   }
 }
 
-.hide {
-  display: none;
-}
-
-.fade-in {
-  animation: fadeIn 1s ease-in;
-}
-
 @keyframes fadeIn {
-  0% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .main-content {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .input-name {
+    min-width: 150px;
+  }
+
+  .button-draw {
+    padding: 10px 20px;
+  }
+
+  .header-banner {
+    padding: 20px 15px;
+  }
+
+  .input-section {
+    padding: 20px 15px;
+  }
+}
+
