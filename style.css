@@ -17,7 +17,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-image: url('/fondo.webp');
+  background-image: url('./fondo.webp');
   background-repeat: no-repeat;
   color: var(--color-text);
   display: flex;
