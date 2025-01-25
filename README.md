@@ -106,9 +106,9 @@ function validarNombre(nombre) {
 }
 ```
 
-## Insignia de logro
+## 🚀 Insignia de logro
 
-Insignia lograda por completar el challenge "Amigo Secreto"
+Insignia de logro por completar el challenge "Amigo Secreto"
 
 ![Vista de insignia](./assets/insignia.webp)
 
