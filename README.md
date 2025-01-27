@@ -2,7 +2,7 @@
 
 Una aplicación web interactiva para organizar sorteos de amigo secreto de manera fácil y divertida. Permite agregar participantes y realizar un sorteo aleatorio con animaciones y validaciones.
 
-El proyecto fue realizado como práctica para mejorar la lógica de programación, de Alura Latam y Oracle, del curso realizado durante la formación de:
+El proyecto fue realizado como práctica del challenge para mejorar la lógica de programación, de **Alura Latam** y **Oracle**, del curso realizado durante la formación de:
 
 - Lógica de programación con JavaScript
 
@@ -70,10 +70,11 @@ Pedro_García (contiene guión bajo)
 
 ## 🚀 Tecnologías Utilizadas
 
-- HTML5
-- CSS3 (con variables y animaciones)
-- JavaScript
-- Google Fonts (Inter y Merriweather)
+<p align="center">
+  <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5" width="80"/>
+  <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS3" width="80"/>
+  <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript" width="80"/>
+</p>
 
 ## 💡 Lógica de Programación Implementada
 
@@ -106,9 +107,23 @@ function validarNombre(nombre) {
 }
 ```
 
-## 🚀 Insignia de logro
+## 🔮 Mejoras Futuras
 
-Insignia de logro por completar el challenge "Amigo Secreto"
+- 📝 Edición de Participantes: Permitir editar los nombres de los participantes en la lista.
+- 🚮 Eliminación de Participantes: Agregar un botón para eliminar participantes de la lista.
+- ⏪ Reiniciar Sorteo: Añadir un botón para reiniciar el sorteo y comenzar de nuevo fácilmente.
+- 🎨 Más Animaciones: Incluir más animaciones para el sorteo, como efectos visuales al revelar resultados.
+- 📱 Mejoras de Responsividad: Optimizar la interfaz para que funcione aún mejor en dispositivos móviles.
+
+## ⌛​ Challenge
+
+Este proyecto es parte de la formación **ONE - Oracle Next Education**, un programa educativo enfocado en el desarrollo de competencias tecnológicas y profesionales.
+
+Asimismo, constituye un reto planteado por **Alura Latam**, una plataforma de aprendizaje que brinda proyectos prácticos y guías detalladas para reforzar conocimientos en programación y diseño web.
+
+## ⭐​ Insignia de logro
+
+Insignia de logro por completar el challenge **Amigo Secreto**
 
 ![Vista de insignia](./assets/insignia.webp)
 

@@ -61,7 +61,7 @@ function realizarSorteo() {
     );
 
     if (posiblesSorteados.length === 0) {
-      return false; // Si no hay opciones válidas, reinicia el sorteo
+      return false; 
     }
 
     const indiceAleatorio = Math.floor(
@@ -86,10 +86,8 @@ async function sortearAmigo() {
     return;
   }
 
-  // Ocultar nombres de la lista
   contenedorLista.classList.add("hidden");
 
-  // Mostrar spinner y mensaje
   const mensajeSorteo = document.createElement("div");
   mensajeSorteo.textContent = "Sorteando tu amigo secreto...";
   mensajeSorteo.className = "mensaje-sorteo fade-in";
@@ -104,10 +102,8 @@ async function sortearAmigo() {
     sorteoExitoso = realizarSorteo();
   }
 
-  // Esperar 3 segundos para suspense
   await new Promise((resolve) => setTimeout(resolve, 3000));
 
-  // Mostrar resultado con el amigo secreto
   resultado.innerHTML = "";
   const divResultado = document.createElement("div");
   divResultado.className = "resultado-final fade-in";
