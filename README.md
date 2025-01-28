@@ -148,7 +148,9 @@ Asimismo, constituye un reto planteado por **Alura Latam**, una plataforma de ap
 
 Insignia de logro por completar el challenge **Amigo Secreto**
 
-![Vista de insignia](./assets/insignia.webp)
+<p align="center">
+  <img src="./assets/insignia.webp" alt="Vista de insignia" width="400"/>
+</p>
 
 ---
 
