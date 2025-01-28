@@ -12,9 +12,6 @@ El proyecto fue realizado como práctica del challenge para mejorar la lógica d
   <img src="./preview.png" alt="Vista previa del challenge" width="400"/>
 </p>
 
-
-Haz clic en la imagen para ver el video del proyecto.
-
 ---
 
 ## ✨ Características Principales
