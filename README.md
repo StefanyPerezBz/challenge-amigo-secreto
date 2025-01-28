@@ -6,9 +6,16 @@ El proyecto fue realizado como práctica del challenge para mejorar la lógica d
 
 - Lógica de programación con JavaScript
 
-![Vista previa del proyecto](./preview.png)
+---
+
+<p align="center">
+  <img src="./preview.png" alt="Vista previa del challenge" width="400"/>
+</p>
+
 
 Haz clic en la imagen para ver el video del proyecto.
+
+---
 
 ## ✨ Características Principales
 
@@ -17,6 +24,8 @@ Haz clic en la imagen para ver el video del proyecto.
 - 🎲 Sorteo aleatorio sin repeticiones
 - 🔄 Animaciones durante el proceso de sorteo
 - 📱 Diseño adaptable a diferentes dispositivos
+
+---
 
 ## 🛠️ Funcionalidades
 
@@ -40,6 +49,8 @@ Haz clic en la imagen para ver el video del proyecto.
   - Nadie sea su propio amigo secreto
   - Cada participante recibe y es recibido como amigo secreto
   - El proceso es completamente aleatorio
+
+---
 
 ## 🎨 Interfaz de Usuario
 
@@ -68,13 +79,17 @@ Pedro_García (contiene guión bajo)
 "" (vacío)
 ```
 
+---
+
 ## 🚀 Tecnologías Utilizadas
 
 <p align="center">
-  <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5" width="80"/>
-  <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS3" width="80"/>
-  <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript" width="80"/>
+  <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5" width="80" title="HTML5"/>
+  <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS3" width="80" title="CSS3"/>
+  <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript" width="80" title="JavaScript"/>
 </p>
+
+---
 
 ## 💡 Lógica de Programación Implementada
 
@@ -86,6 +101,8 @@ Pedro_García (contiene guión bajo)
 - **Expresiones Regulares**: Validación de nombres
 - **Condicionales**: Lógica de validación y sorteo
 - **DOM Manipulation**: Actualización dinámica de la interfaz
+
+---
 
 ## 📝 Código Ejemplo
 
@@ -107,6 +124,8 @@ function validarNombre(nombre) {
 }
 ```
 
+---
+
 ## 🔮 Mejoras Futuras
 
 - 📝 Edición de Participantes: Permitir editar los nombres de los participantes en la lista.
@@ -115,17 +134,23 @@ function validarNombre(nombre) {
 - 🎨 Más Animaciones: Incluir más animaciones para el sorteo, como efectos visuales al revelar resultados.
 - 📱 Mejoras de Responsividad: Optimizar la interfaz para que funcione aún mejor en dispositivos móviles.
 
+---
+
 ## ⌛​ Challenge
 
 Este proyecto es parte de la formación **ONE - Oracle Next Education**, un programa educativo enfocado en el desarrollo de competencias tecnológicas y profesionales.
 
 Asimismo, constituye un reto planteado por **Alura Latam**, una plataforma de aprendizaje que brinda proyectos prácticos y guías detalladas para reforzar conocimientos en programación y diseño web.
 
+---
+
 ## ⭐​ Insignia de logro
 
 Insignia de logro por completar el challenge **Amigo Secreto**
 
 ![Vista de insignia](./assets/insignia.webp)
+
+---
 
 ## 👤 Autor
 
