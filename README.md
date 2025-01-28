@@ -60,6 +60,8 @@ La aplicación cuenta con:
 - Botones con efectos hover
 - Animaciones suaves para mejor experiencia de usuario
 
+---
+
 ## 🔍 Validaciones Implementadas
 
 ```javascript
