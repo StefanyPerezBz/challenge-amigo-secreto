@@ -1,32 +1,31 @@
-# 🎁 Amigo Secreto - Aplicación de Sorteo
-
-Una aplicación web interactiva para organizar sorteos de amigo secreto de manera fácil y divertida. Permite agregar participantes y realizar un sorteo aleatorio con animaciones y validaciones.
-
-El proyecto fue realizado como práctica del challenge para mejorar la lógica de programación, de **Alura Latam** y **Oracle**, del curso realizado durante la formación de:
-
-- Lógica de programación con JavaScript
-
----
+# 🎁 Amigo Secreto 
 
 <p align="center">
-  <img src="./preview.png" alt="Vista previa del challenge" width="400"/>
+  <a href="https://developer.mozilla.org/es/docs/Web/HTML">
+    <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  </a>
+  <a href="https://developer.mozilla.org/es/docs/Web/CSS">
+    <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  </a>
+  <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  </a>
 </p>
 
----
+**Amigo Secreto** es una aplicación web interactiva que permite organizar sorteos de manera fácil y divertida. Los usuarios pueden agregar participantes y realizar un sorteo aleatorio con validaciones y animaciones.
+El proyecto forma parte del challenge de **Alura Latam** y **Oracle ONE**, diseñado para reforzar la **lógica de programación con JavaScript**.
 
-## ✨ Características Principales
+## 🌟 Características
 
-- ✅ Interfaz de usuario intuitiva y responsive
-- 🎯 Validación de nombres en tiempo real
-- 🎲 Sorteo aleatorio sin repeticiones
-- 🔄 Animaciones durante el proceso de sorteo
-- 📱 Diseño adaptable a diferentes dispositivos
-
----
+- Interfaz de usuario intuitiva y responsive  
+- Validación de nombres en tiempo real  
+- Sorteo aleatorio sin repeticiones  
+- Animaciones durante el proceso de sorteo  
+- Compatible con diferentes dispositivos  
 
 ## 🛠️ Funcionalidades
 
-### 1. Gestión de Participantes
+### 1. Gestión de participantes
 
 - Agregar nombres mediante un campo de texto y botón "Añadir"
 - Visualización instantánea de la lista de participantes
@@ -37,7 +36,7 @@ El proyecto fue realizado como práctica del challenge para mejorar la lógica d
   - No se permiten números ni caracteres especiales
   - No se permiten nombres duplicados
 
-### 2. Sistema de Sorteo
+### 2. Sistema de sorteo
 
 - Botón "Sortear amigo" para iniciar el proceso
 - Animación de spinner durante el sorteo
@@ -47,9 +46,7 @@ El proyecto fue realizado como práctica del challenge para mejorar la lógica d
   - Cada participante recibe y es recibido como amigo secreto
   - El proceso es completamente aleatorio
 
----
-
-## 🎨 Interfaz de Usuario
+## 🎨 Interfaz de usuario
 
 La aplicación cuenta con:
 
@@ -60,9 +57,7 @@ La aplicación cuenta con:
 - Botones con efectos hover
 - Animaciones suaves para mejor experiencia de usuario
 
----
-
-## 🔍 Validaciones Implementadas
+## 🔍 Validaciones implementadas
 
 ```javascript
 // Ejemplos de nombres válidos:
@@ -78,19 +73,7 @@ Pedro_García (contiene guión bajo)
 "" (vacío)
 ```
 
----
-
-## 🚀 Tecnologías Utilizadas
-
-<p align="center">
-  <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5" width="80" title="HTML5"/>
-  <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS3" width="80" title="CSS3"/>
-  <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript" width="80" title="JavaScript"/>
-</p>
-
----
-
-## 💡 Lógica de Programación Implementada
+## 💡 Lógica de programación implementada
 
 - **Arrays**: Almacenamiento y manipulación de la lista de participantes
 - **Map**: Gestión de emparejamientos en el sorteo
@@ -100,8 +83,6 @@ Pedro_García (contiene guión bajo)
 - **Expresiones Regulares**: Validación de nombres
 - **Condicionales**: Lógica de validación y sorteo
 - **DOM Manipulation**: Actualización dinámica de la interfaz
-
----
 
 ## 📝 Código Ejemplo
 
@@ -123,37 +104,11 @@ function validarNombre(nombre) {
 }
 ```
 
----
-
-## 🔮 Mejoras Futuras
-
-- 📝 Edición de Participantes: Permitir editar los nombres de los participantes en la lista.
-- 🚮 Eliminación de Participantes: Agregar un botón para eliminar participantes de la lista.
-- ⏪ Reiniciar Sorteo: Añadir un botón para reiniciar el sorteo y comenzar de nuevo fácilmente.
-- 🎨 Más Animaciones: Incluir más animaciones para el sorteo, como efectos visuales al revelar resultados.
-- 📱 Mejoras de Responsividad: Optimizar la interfaz para que funcione aún mejor en dispositivos móviles.
-
----
-
-## ⌛​ Challenge
-
-Este proyecto es parte de la formación **ONE - Oracle Next Education**, un programa educativo enfocado en el desarrollo de competencias tecnológicas y profesionales.
-
-Asimismo, constituye un reto planteado por **Alura Latam**, una plataforma de aprendizaje que brinda proyectos prácticos y guías detalladas para reforzar conocimientos en programación y diseño web.
-
----
-
 ## ⭐​ Insignia de logro
 
 Insignia de logro por completar el challenge **Amigo Secreto**
 
 <p align="center">
-  <img src="./assets/insignia.webp" alt="Vista de insignia" width="400"/>
+  <img src="./assets/insignia.webp" alt="Vista de insignia" width="100"/>
 </p>
 
----
-
-## 👤 Autor
-
-Desarrollado por **Stefany Pérez**  
-GitHub: [@StefanyPerezBz](https://github.com/StefanyPerezBz)
