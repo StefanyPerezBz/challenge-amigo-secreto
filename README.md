@@ -103,6 +103,11 @@ function validarNombre(nombre) {
   return true;
 }
 ```
+## 📄 Licencia
+
+MIT License – Ver LICENSE para detalles completos.
+
+Nota: Proyecto desarrollado con fines educativos y demostrativos.
 
 ## ⭐​ Insignia de logro
 
